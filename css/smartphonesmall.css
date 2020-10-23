@@ -1,0 +1,111 @@
+@media screen and (min-width:350px) and (max-width:640px) and (orientation:portrait) {
+    body {
+        height: 214vh;
+        width: 177.7vw;
+        background: rgb(252, 245, 246)
+    }
+    .page-landing {
+        text-align: center;
+        height: 214vh;
+        width: 177.7vw;
+    }
+    .page-landing h1 {
+        width: 177.7vw;
+        font-size: 65px;
+        margin-top: -1200px;
+        margin-bottom: 12px;
+        color: deeppink;
+        font-family: cursive;
+    }
+    .page-landing h3 {
+        font-size: 35px;
+        font-weight: 400;
+        font-family: cursive;
+        color: darkviolet;
+        margin-bottom: 26px;
+    }
+    .cape {
+        background-image: url("../img/capa2.jpeg");
+        background-size: 100%;
+        background-repeat: no-repeat;
+        background-color: #000;
+        width: 140vw;
+        height: 49vh;
+        border: none;
+        border-radius: 50%;
+        margin-bottom: 40px;
+    }
+    .page-landing p {
+        color: blueviolet;
+        font-size: 35px;
+        font-weight: 600;
+        font-family: sans-serif;
+        margin-bottom: 20px;
+    }
+    .owl-carousel {
+        margin: -920px auto 10px;
+    }
+    .rodape {
+        height: 810px;
+    }
+    .rodape footer {
+        margin-top: -271px;
+        height: 810px;
+    }
+    .rodape footer .contato {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        flex-direction: column;
+    }
+    .rodape footer .contato a {
+        text-decoration: none;
+        margin-left: 25px;
+        margin-top: 43px;
+        font-size: 70px;
+        color: honeydew;
+    }
+    .rodape footer .textfooter {
+        font-size: 25px;
+        font-family: monospace;
+        font-weight: 600;
+        color: darkblue;
+        margin-top: 143px;
+        text-align: center;
+    }
+    .textfooter span {
+        margin-top: -240px;
+        font-size: 42px;
+        margin-bottom: 5px;
+    }
+    .rodape footer h5 {
+        margin-top: 20px;
+        font-size: 18px;
+        font-family: cursive;
+        color: darkmagenta;
+    }
+}
+
+@media screen and (min-width:350px) and (max-width:640px) and (orientation:landscape) {
+    body {
+        width: 126vw;
+        height: 100%;
+        background: rgb(252, 245, 246);
+    }
+    .cape {
+        width: 47rem;
+        height: 20rem;
+    }
+    .rodape footer .textfooter {
+        width: 91vw;
+        height: 16vh;
+        margin-left: 170px;
+    }
+    .rodape footer .textfooter p {
+        margin-top: 10px;
+    }
+    .page-landing h1 {
+        color: deeppink;
+        font-family: cursive;
+    }
+}

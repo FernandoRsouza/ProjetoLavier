@@ -1,0 +1,132 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(423.62deg, rgb(225, 251, 252), rgb(252, 245, 246))no-repeat
+}
+
+.page-landing {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.page-landing h1 {
+    color: coral;
+    font-size: 3.2rem;
+    font-family: sans-serif;
+    line-height: 2;
+    transition: background 2s;
+}
+
+.page-landing h3 {
+    margin-top: -28px;
+    font-size: 22px;
+    font-weight: 600;
+    font-family: sans-serif;
+    color: salmon;
+    margin-bottom: 10px;
+}
+
+.page-landing h1:hover {
+    color: black;
+    cursor: pointer;
+    animation-delay: 200ms;
+    opacity: .5;
+}
+
+.cape {
+    background-image: url("../img/capa2.jpeg");
+    background-attachment: scroll;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: #000;
+    width: 60rem;
+    height: 34rem;
+    border: none;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+
+.page-landing p {
+    color: blueviolet;
+    font-size: 28px;
+    font-family: sans-serif;
+    margin-bottom: 20px;
+}
+
+.owl-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+
+.box-filme {
+    width: 150px;
+    height: 200px;
+    border: 1px solid #b2b2b2fd;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    margin: 10px;
+}
+
+footer {
+    text-align: center;
+}
+
+.rodape footer {
+    height: 277px;
+    width: 100%;
+    opacity: .8;
+    background: linear-gradient(152deg, darkviolet, transparent);
+}
+
+.rodape footer .contato {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-evenly;
+    flex-direction: column;
+}
+
+.rodape footer .contato a {
+    text-decoration: none;
+    margin-left: 25px;
+    margin-top: 19px;
+    font-size: 1.5rem;
+    color: honeydew;
+    transition: background 300ms;
+}
+
+.rodape footer .contato a:hover {
+    color: hotpink;
+}
+
+.rodape footer .textfooter {
+    margin: auto;
+    font-size: 14px;
+    font-family: monospace;
+    font-weight: 600;
+    color: darkblue;
+    /* margin-top: -240px; */
+    text-align: center;
+}
+
+.textfooter span {
+    margin-top: -240px;
+    font-size: 20px;
+}
+
+.rodape footer h5 {
+    margin-top: 20px;
+    font-size: 12px;
+    font-family: cursive;
+    color: darkmagenta;
+}
