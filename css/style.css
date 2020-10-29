@@ -4,38 +4,41 @@
     box-sizing: border-box;
 }
 
-body {
-    width: 100%;
-    height: 100%;
-    background: linear-gradient(423.62deg, rgb(225, 251, 252), rgb(252, 245, 246))no-repeat
-}
-
-.page-landing {
+body, .page-landing, section, .rodape, .cape, #description {
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    width: 100%;
+    max-width: 1343px;
+}
+
+body {
+    height: 100%;
+    background: linear-gradient(423.62deg, rgb(225, 251, 252), rgb(252, 245, 246))no-repeat
 }
 
 .page-landing h1 {
-    color: coral;
+    color: #ff1493;
     font-size: 3.2rem;
-    font-family: sans-serif;
+    font-family: cursive;
     line-height: 2;
     transition: background 2s;
+    text-decoration: none;
+    text-align: center;
 }
 
 .page-landing h3 {
-    margin-top: -28px;
+    margin: -28px auto 10px;
     font-size: 22px;
     font-weight: 600;
     font-family: sans-serif;
-    color: salmon;
-    margin-bottom: 10px;
+    color: #ff1493;
+    text-align: center;
 }
 
 .page-landing h1:hover {
-    color: black;
+    color: #000000;
     cursor: pointer;
     animation-delay: 200ms;
     opacity: .5;
@@ -52,21 +55,22 @@ body {
     border: none;
     border-radius: 50%;
     margin-bottom: 20px;
+    text-align: center;
+}
+
+.cape .captext {
+    font-size: 66px;
+    opacity: .4;
 }
 
 .page-landing p {
-    color: blueviolet;
+    color: #8a2be2;
     font-size: 28px;
     font-family: sans-serif;
-    margin-bottom: 20px;
+    margin: 10px auto 10px;
+    text-align: center;
 }
 
-.owl-carousel {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: row;
-}
 
 .box-filme {
     width: 150px;
@@ -78,15 +82,35 @@ body {
     margin: 10px;
 }
 
+#description {
+    flex-direction: row;
+    text-align: center;
+    height: 200px;
+}
+
+#description .list {
+    height: 100%;
+    width: 300px;
+    font-size: 22px;
+    color: darkviolet;
+    margin: 10px auto 21px;
+}
+
+li {
+    list-style-type: none;
+    font-family: sans-serif;
+}
+
 footer {
     text-align: center;
 }
 
 .rodape footer {
-    height: 277px;
+    height: 400px;
     width: 100%;
     opacity: .8;
-    background: linear-gradient(152deg, darkviolet, transparent);
+    background: linear-gradient(152deg, #9400d3, transparent);
+    margin: 10px auto 0;
 }
 
 .rodape footer .contato {
@@ -101,32 +125,55 @@ footer {
     margin-left: 25px;
     margin-top: 19px;
     font-size: 1.5rem;
-    color: honeydew;
+    color: #f0fff0;
     transition: background 300ms;
 }
 
 .rodape footer .contato a:hover {
-    color: hotpink;
+    color: #ff69b4;
 }
 
+.art1 {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    width: 400px;
+    height: 213px;
+    text-align: center;
+    float: right;
+    margin: -179px auto 50px;
+}
+
+.art1 .item p a {
+    color: #f0fff0;
+    font-size: 18px;
+    font-family: sans-serif;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+
+
 .rodape footer .textfooter {
-    margin: auto;
-    font-size: 14px;
+    margin: 113px auto 0;
     font-family: monospace;
     font-weight: 600;
-    color: darkblue;
-    /* margin-top: -240px; */
+    color: #00008b;
     text-align: center;
 }
 
 .textfooter span {
     margin-top: -240px;
+    font-size: 30px;
+}
+.textfooter p{
     font-size: 20px;
 }
 
 .rodape footer h5 {
-    margin-top: 20px;
-    font-size: 12px;
+    margin-top: 15px;
+    font-size: 9px;
     font-family: cursive;
-    color: darkmagenta;
+    color: #8b008b;
 }

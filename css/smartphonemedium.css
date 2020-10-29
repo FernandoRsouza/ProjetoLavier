@@ -1,7 +1,7 @@
-@media only screen and (min-width:300px) and (max-width:500px) {
-    body, .page-landing, header, section, .rodape {
+@media only screen and (min-width:500.2px) and (max-width:800px) {
+    body, .page-landing, header, section {
         width: 100%;
-        max-width: 500px;
+        max-width: 800px;
         height: 100%;
         display: flex;
         align-items: center;
@@ -10,35 +10,36 @@
     }
     .page-landing header h1 {
         text-align: center;
-        width: 395px;
-        max-width: 500px;
-        margin: 20px auto 0px;
+        width: 495px;
+        max-width: 800px;
+        margin: 10px auto 0;
         height: 85px;
         font-family: 'Rantliyer' cursive;
         font-size: 40px;
     }
     .page-landing header h3 {
-        margin: 1px 100px 15px;
+        margin: 1px auto 0;
     }
     .cape {
-        background-image: url("../img/capa3.jpg");
-        width: 95%;
-        max-width: 500px;
-        height: 254px;
-        margin: 10px auto;
+        background-image: url(../img/capa3.jpg);
+        width: 60%;
+        max-width: 800px;
+        height: 251px;
+        margin: 10px auto 7px;
         opacity: .9;
     }
     header .cape .captext {
-        width: 200px;
-        font-size: 30px;
+        width: 300px;
+        max-width: 800px;
+        font-size: 20px;
         height: 88px;
         opacity: .3;
         color: deeppink;
         text-align: center;
     }
     .page, .page-landing header p {
-        width: 395px;
-        max-width: 500px;
+        width: 495px;
+        max-width: 800px;
         margin: 15px auto 5px;
         font-size: 21px;
         text-align: center;
@@ -50,17 +51,17 @@
         font-size: 23px;
         font-family: sans-serif;
         text-decoration: none;
-        margin: 10px auto 30px;
+        margin: 20px auto 0px;
     }
     #description li {
         font-size: 20px;
         font-weight: 600;
     }
-    .page-landing .rodape footer {
+    .rodape footer {
         width: 100%;
-        max-width: 500px;
-        height: 375px;
-        margin-top: 10px;
+        max-width: 800px;
+        height: 276px;
+        margin: 7px auto 0;
     }
     .rodape footer .textfooter {
         margin-top: 13px;
@@ -71,8 +72,10 @@
     .art1 {
         display: none;
     }
-    #description{
+    .rodape footer h5 {
+        margin: -16px auto 0;
+    }
+    #description {
         display: none;
     }
 }
-
