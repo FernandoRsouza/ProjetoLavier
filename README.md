@@ -1,2 +1,3 @@
 # ProjetoLavier
-projeto em desenvolvimento
+add melhorias na responsividade page em andamento
+
